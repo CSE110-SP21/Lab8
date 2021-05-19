@@ -1,0 +1,136 @@
+/* Main Stylesheet */
+
+* {
+  color: #3d3d3d;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  align-items: center;
+  background-color: #EFECCA;
+  display: grid;
+  justify-items: center;
+  margin: 100px 0 0 0;
+  width: 100%;
+}
+
+body entry-page {
+  display: none;
+}
+
+header {
+  background-color: #D9D281;
+  filter: drop-shadow(0 -5px 9px rgba(0,0,0,0.7));
+  margin: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+header img {
+  position: absolute;
+  right: 15px;
+  top: 20px;
+}
+
+header img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+header img:active {
+  opacity: 0.3;
+}
+
+header h1 {
+  cursor: pointer;
+  display: inline-block;
+  margin: 22px auto;
+}
+
+ul {
+  display: grid;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.post {
+  background-color: #E2E2E2;
+}
+
+/* Settings CSS */
+body.settings {
+  background-color: rgb(222, 220, 220);
+}
+
+body.settings * {
+  color: black;
+}
+
+body.settings entry-page {
+  display: none;
+}
+
+body.settings header {
+  background-color: rgb(157, 157, 157);
+}
+
+body.settings main {
+  display: none;
+}
+/* Setttings CSS End */
+
+/* Single Entry CSS Start */
+body.single-entry entry-page {
+  display: block;
+}
+
+body.single-entry main {
+  display: none;
+}
+/* Single Entry CSS End */
+
+
+/* Web Component Copy - Start Here */
+.entry {
+  background-color: white;
+  border-radius: 6px;
+  list-style-type: none;
+  margin-bottom: 30px;
+  max-width: 700px;
+  padding: 20px;
+  width: 80%;
+}
+
+.entry-audio {
+  margin: 10px 0;
+  width: 95%;
+}
+
+.entry-content {
+  font-size: 20px;
+  margin: 10px 0;
+  text-indent: 30px;
+}
+
+.entry-date {
+  color: rgb(163, 163, 163);
+  font-size: 20px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+
+.entry-image {
+  height: 100%;
+  max-height: 350px;
+  max-width: 550px;
+}
+
+.entry-title {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+/* Web Component Copy - Stop Here */

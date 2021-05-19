@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 8 - E2E Testing</title>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./styles/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="./styles/favicon.ico">
+</head>
+
+<body>
+  <header>
+    <h1>Journal Entries</h1>
+    <img src="./styles/settings.svg" alt="settings" width=40 height=40>
+  </header>
+
+  <main></main>
+
+  <entry-page></entry-page>
+
+  <!-- journal-entry web component -->
+  <script src="./components/journal-entry.js" type="module"></script>
+  <script src="./components/entry-page.js" type="module"></script>
+
+  <!-- Router Script -->
+  <script src="./scripts/router.js" type="module"></script>
+
+  <!-- Main Script -->
+  <script src="./scripts/script.js" type="module"></script>
+</body>
+
+</html>
