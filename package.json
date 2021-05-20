@@ -21,6 +21,12 @@
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.2",
     "babel-jest": "^26.6.3",
-    "jest": "^26.6.3"
-  }
+    "jest": "^26.6.3",
+    "jest-puppeteer": "^5.0.3",
+    "puppeteer": "^9.1.1"
+  },
+  "jest": {
+    "preset": "jest-puppeteer",
+    "verbose": true
+ }
 }
