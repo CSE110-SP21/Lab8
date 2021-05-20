@@ -4,7 +4,7 @@
   "description": "1. In your own words: Where would you fit your automated tests in your Bujo project development pipeline? (just write the letter)",
   "main": "babel.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
