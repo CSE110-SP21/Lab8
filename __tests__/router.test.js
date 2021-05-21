@@ -4,7 +4,7 @@
 
  import { pushToHistory } from '../scripts/router.js';
 
- describe('pushToHistory function', () => {
+ describe('pushToHistory function ', () => {
      test('pushes settings page', () => {
          let hist = pushToHistory('settings');
          expect(hist.state?.page).toEqual('settings');
