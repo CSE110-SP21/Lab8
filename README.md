@@ -1,5 +1,7 @@
 # Lab8_Starter
 
+Member(s): Joshua Wang
+
 ## Check your understanding q's (FILL OUT)
 1. In your own words: Where would you fit your automated tests in your Bujo project development pipeline?
 
