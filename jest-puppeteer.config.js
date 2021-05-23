@@ -1,7 +1,7 @@
 // jest-puppeteer.config.js
 module.exports = {
-  launch: {
-    headless: false,
-    slowMo: 500
+launch: {
+   headless: false,
+   slowMo: 100
   }
 }
